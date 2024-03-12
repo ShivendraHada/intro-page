@@ -33,7 +33,7 @@ function Intro() {
           <Link
             href="https://www.linkedin.com/in/shivendrahada"
             target="_blank"
-            className="underline underline-offset-4 decoration-1"
+            className="underline underline-offset-4 decoration-1 text-purple-800"
           >
             LinkedIn
           </Link>
@@ -43,7 +43,7 @@ function Intro() {
           <Link
             href="https://www.github.com/shivendrahada"
             target="_blank"
-            className="underline underline-offset-4 decoration-1"
+            className="underline underline-offset-4 decoration-1 text-purple-800"
           >
             GitHub
           </Link>
