@@ -4,16 +4,16 @@ import React from "react";
 function Projects() {
   return (
     <div>
-      <h2 className="text-2xl mb-8 font-bold">Projects</h2>
-      <div className="my-5">
+      <h2 className="text-3xl mb-8 font-bold text-center">Projects</h2>
+      <div className="my-10 p-2">
         <Link href="https://to-do.thetechhub.app" target="_blank">
-          <h4 className="text-xl my-2 font-semibold text-purple-800">
+          <h4 className="text-xl my-2 font-semibold text-purple-900">
             #{" "}
             <span className="hover:underline hover:underline-offset-4 hover:decoration-1">
               Seamless Task Management: Your To-Do List, Any Device, Anytime!
             </span>
           </h4>
-          <p className="text-md my-1 ml-5 text-justify">
+          <p className="text-md my-1 md:ml-5 text-justify">
             A dynamic To-Do app designed for seamless task management. Easily
             transition tasks from &apos;To Do&apos; to &apos;In Progress&apos;
             and finally &apos;Done.&apos; The app ensures flexibility by
@@ -32,12 +32,12 @@ function Projects() {
           </h5>
         </Link>
       </div>
-      <div className="my-5">
+      <div className="my-5 p-2">
         <h4 className="text-xl my-2 font-semibold">
           # Streamlining Daily Standup and EOD Updates with Node.js Slackbot on
           AWS ECS
         </h4>
-        <p className="text-md my-1 ml-5 text-justify">
+        <p className="text-md my-1 md:ml-5 text-justify">
           The Standup/EOD Slackbot was developed as a solution to streamline the
           process of collecting daily standup and End-of-Day (EOD) updates from
           employees. The application was independently created using the node.js

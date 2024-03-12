@@ -12,8 +12,10 @@ function Intro() {
         width={300}
         height={300}
       />
-      <h1 className="pt-5 pb-2 text-4xl font-bold">Shivendra Hada</h1>
-      <h2 className="p-2 text-lg font-semibold">
+      <h1 className="pt-5 pb-2 text-4xl font-bold text-purple-900">
+        Shivendra Hada
+      </h1>
+      <h2 className="p-2 text-lg font-semibold text-purple-900 text-center">
         Senior Full Stack Developer | Next.js | React.js | Node.js | Python | 2x
         AWS Certified
       </h2>
@@ -33,7 +35,7 @@ function Intro() {
           <Link
             href="https://www.linkedin.com/in/shivendrahada"
             target="_blank"
-            className="underline underline-offset-4 decoration-1 text-purple-800"
+            className="underline underline-offset-4 decoration-1 text-purple-900"
           >
             LinkedIn
           </Link>
