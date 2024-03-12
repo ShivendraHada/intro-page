@@ -27,8 +27,8 @@ function Intro() {
         and extensive full-stack development experience, I can create robust,
         secure, and cost-efficient solutions.
       </p>
-      <h3 className="p-5 text-xl">
-        Let's Connect:{" "}
+      <h3 className="p-5 text-lg">
+        Let&apos;s Connect:{" "}
         <span>
           <Link
             href="https://www.linkedin.com/in/shivendrahada"
