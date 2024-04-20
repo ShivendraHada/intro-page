@@ -20,7 +20,7 @@ const ExperienceDetail = memo(({ company }: { company: CompanyProps }) => {
           <ul>
             {company.responsibilities.map((res) => {
               return (
-                <li className="inline-flex items-baseline">
+                <li key={res} className="inline-flex items-baseline">
                   <FaLongArrowAltRight className="mr-2 text-xs" />
                   {res}
                 </li>
