@@ -54,6 +54,17 @@ export default function SideIntro() {
         </span>
       </section>
       <section className="md:text-left text-center">
+        <h2 className="sideintro-heading">Certifications</h2>
+        <span className="font-medium text-sm block leading-5">
+          AWS Certified - Developer Associate
+        </span>
+        <span className="text-xs block leading-5">Jan 2024 - Jan 2027</span>{" "}
+        <span className="font-medium text-sm block leading-5 mt-3">
+          AWS Certified - Cloud Practitioner
+        </span>
+        <span className="text-xs block leading-5">Oct 2021 - Jan 2027</span>
+      </section>
+      <section className="md:text-left text-center">
         <h2 className="sideintro-heading">Education</h2>
         <span className="font-medium text-sm block leading-5">
           Sagar Institute of Research and Technology, Bhopal
