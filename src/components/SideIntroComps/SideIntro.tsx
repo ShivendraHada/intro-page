@@ -6,7 +6,7 @@ import About from "../MainIntroComps/About";
 
 export default function SideIntro() {
   return (
-    <div className="flex flex-col md:justify-start md:items-start items-center flex-none md:w-[25%]">
+    <div className="flex flex-col md:justify-start md:items-start items-center flex-none md:w-[25%] px-2">
       <div className="p-8">
         <Image
           className="rounded-full shadow-lg border-[10px] border-double p-5 border-slate-200"

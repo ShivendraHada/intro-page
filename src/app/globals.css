@@ -19,7 +19,7 @@ body{
 }
 
 .main-heading {
-    @apply text-2xl mb-2 font-semibold
+    @apply text-2xl mb-2 font-semibold ml-2
 }
 
 .sideintro-heading {
