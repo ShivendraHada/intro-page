@@ -46,10 +46,14 @@ export default function About() {
       <ul className="list-disc list-inside marker:text-green-600 marker:text-xl marker:mr-2 mb-3 md:text-left text-center">
         <li>6.8 years of experience</li>
       </ul>
+      <span className="text-sm md:text-left text-center block md:w-full w-96 mx-auto font-medium">
+        # Senior Full Stack Developer | Next.js | React.js | Node.js | Python |
+        Serverless | 2x AWS Certified
+      </span>
       <ul className="flex flex-col p-2 text-sm font-light text-justify">
         <li className="inline-flex items-baseline">
           <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" /> Seasoned
-          full-stack JavaScript developer with over 7 years of experience
+          full-stack JavaScript developer with over 6 years of experience
         </li>
         <li className="inline-flex items-baseline">
           <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />

@@ -10,7 +10,7 @@ const companies: CompanyProps[] = [
       "Takes an active role in fixing bugs and developing features that have a significant impact on meeting project deadlines.",
       "Emphasizes the importance of writing clean, readable, and maintainable code, allowing for better collaboration among team members",
     ],
-    skills: "NextJS, ReactJS, AWS, CI/ CD pipelines, Serverless",
+    skills: "NextJS, ReactJS, NodeJS, AWS, CI/ CD pipelines, Serverless",
     fromTo: "Aug 22 - Present",
   },
   {
