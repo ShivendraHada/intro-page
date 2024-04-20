@@ -9,7 +9,7 @@ import {
 export default function About() {
   return (
     <section className="section-style !pt-0">
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex md:flex-row flex-col md:justify-between justify-center items-center">
         <h1 className="text-3xl font-bold">Shivendra Hada</h1>
         <div className="flex items-center">
           <span>
@@ -34,7 +34,7 @@ export default function About() {
           <span className="m-2 text-xl font-normal">|</span>
           <span>
             <Link
-              href="https://www.github.com/shivendrahada"
+              href="mailto:shivendrahada24@gmail.com"
               target="_blank"
               className="text-xl"
             >
@@ -43,10 +43,10 @@ export default function About() {
           </span>
         </div>
       </div>
-      <ul className="list-disc list-inside marker:text-green-600 marker:text-xl marker:mr-2 mb-4">
+      <ul className="list-disc list-inside marker:text-green-600 marker:text-xl marker:mr-2 mb-3 md:text-left text-center">
         <li>6.8 years of experience</li>
       </ul>
-      <ul className="p-2 text-sm font-light text-justify">
+      <ul className="flex flex-col p-2 text-sm font-light text-justify">
         <li className="inline-flex items-baseline">
           <FaLongArrowAltRight className="mr-2 text-xs" /> Seasoned full-stack
           JavaScript developer with over 7 years of experience

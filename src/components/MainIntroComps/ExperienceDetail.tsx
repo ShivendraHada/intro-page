@@ -13,11 +13,11 @@ const ExperienceDetail = memo(({ company }: { company: CompanyProps }) => {
           <span className="">{company.name}</span>
           <span className="">{company.fromTo}</span>
         </div>
-        <span className="py-2 mb-3 text-sm text-medium block">
+        <span className="py-2 mb-1 text-sm text-medium block">
           {company.about}
         </span>
         <p className="text-sm my-1 text-justify ">
-          <ul>
+          <ul className="flex flex-col">
             {company.responsibilities.map((res) => {
               return (
                 <li key={res} className="inline-flex items-baseline">

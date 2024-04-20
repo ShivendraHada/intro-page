@@ -34,7 +34,6 @@ const companies: CompanyProps[] = [
     about:
       "Mitra.money, a wealth-tech startup, wishes to revolutionize wealth management through a comprehensive digital marketplace. The aim is to secure smarter investment, insurance, advisory, and loan solutions for businesses and individuals.",
     responsibilities: [
-      "Mitra.money, a wealth-tech startup, wishes to revolutionize wealth management through a comprehensive digital marketplace. The aim is to secure smarter investment, insurance, advisory, and loan solutions for businesses and individuals.",
       "Built Android UI using Angular, Typescript, and Ionic Framework.",
       "Developed scalable, high-performance web applications with React.js.",
       "Implemented automated testing and continuous deployment pipelines for code reliability.",

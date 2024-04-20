@@ -5,8 +5,10 @@ import Experience from "./Experience";
 
 export default function Main() {
   return (
-    <section className="border-l-[1px] border-color pl-10">
-      <About />
+    <section className="md:border-l-[1px] md:border-color md:pl-10 md:mt-0 mt-6">
+      <div className="md:block hidden">
+        <About />
+      </div>
       <Experience />
       <Projects />
     </section>

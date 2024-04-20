@@ -3,7 +3,7 @@ import Sidebar from "@/components/SideIntroComps/SideIntro";
 
 export default function Home() {
   return (
-    <main className="flex flex-row justify-items-start min-h-screen container mx-auto mt-5 mb-20">
+    <main className="md:flex md:flex-row md:justify-items-start min-h-screen max-w-[1200px] w-[96%] mx-auto mt-5 mb-20">
       <Sidebar />
       <Details />
     </main>
