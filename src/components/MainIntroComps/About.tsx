@@ -9,7 +9,7 @@ import {
 export default function About() {
   return (
     <section className="section-style !pt-0">
-      <div className="flex md:flex-row flex-col md:justify-between justify-center items-center">
+      <div className="flex md:flex-row flex-col md:justify-between justify-center items-center w-[99%] md:mx-0 mx-auto">
         <h1 className="text-3xl font-bold">Shivendra Hada</h1>
         <div className="flex items-center">
           <span>
@@ -43,14 +43,14 @@ export default function About() {
           </span>
         </div>
       </div>
-      <ul className="list-disc list-inside marker:text-green-600 marker:text-xl marker:mr-2 mb-3 md:text-left text-center">
+      <ul className="list-disc list-inside marker:text-green-600 marker:text-xl marker:mr-2 mb-2 md:text-left text-center">
         <li>6.8 years of experience</li>
       </ul>
       <span className="text-sm md:text-left text-center block md:w-full w-96 mx-auto font-medium">
         # Senior Full Stack Developer | Next.js | React.js | Node.js | Python |
         Serverless | 2x AWS Certified
       </span>
-      <ul className="flex flex-col p-2 text-sm font-light text-justify">
+      <ul className="flex flex-col p-2 text-sm font-normal text-justify">
         <li className="inline-flex items-baseline">
           <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" /> Seasoned
           full-stack JavaScript developer with over 6 years of experience

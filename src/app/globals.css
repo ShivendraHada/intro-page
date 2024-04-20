@@ -23,7 +23,7 @@ body{
 }
 
 .sideintro-heading {
-    @apply text-base mb-2 mt-5 primary-text-color font-semibold;
+    @apply text-base mb-2 mt-5 primary-text-color font-semibold underline;
 }
 
 .hr-style{
