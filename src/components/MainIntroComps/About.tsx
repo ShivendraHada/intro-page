@@ -48,31 +48,31 @@ export default function About() {
       </ul>
       <ul className="flex flex-col p-2 text-sm font-light text-justify">
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" /> Seasoned full-stack
-          JavaScript developer with over 7 years of experience
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" /> Seasoned
+          full-stack JavaScript developer with over 7 years of experience
         </li>
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" />
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />
           Expertise in building robust, scalable, and maintainable web
           applications
         </li>
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" />
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />
           Proficient in leveraging JavaScript on both the front-end (Next.js,
           React.js) and back-end (Node.js)
         </li>
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" />
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />
           AWS-certified cloud professional, adept at designing and deploying
           cost-effective, highly available, and secure cloud-based solutions
         </li>
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" />
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />
           Passionate about leveraging technology to deliver custom software
           solutions that help clients achieve their goals
         </li>
         <li className="inline-flex items-baseline">
-          <FaLongArrowAltRight className="mr-2 text-xs" />
+          <FaLongArrowAltRight className="mr-2 text-xs min-w-[10px]" />
           Known for a customer-centric approach and willingness to go the extra
           mile
         </li>
