@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-style{
+    @apply py-4;
+}
+
+body{
+    @apply text-black
+}
+
+.primary-text-color {
+    @apply text-[#00443e];
+}
+
+.primary-bg-color {
+    @apply bg-[#00443e];
+}
+
+.main-heading {
+    @apply text-2xl mb-2 font-semibold
+}
+
+.sideintro-heading {
+    @apply text-sm mb-2 mt-5 primary-text-color font-semibold;
+}
+
+.hr-style{
+    @apply bg-[#00443e] h-[2px]
+}
+
+.border-color{
+    @apply border-[#00443e]
+}
