@@ -29,4 +29,6 @@ const ProjectItem = memo(({ project }: { project: ProjectProps }) => {
     );
 });
 
+ProjectItem.displayName = 'Project';
+
 export default ProjectItem
