@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import About from "../MainIntroComps/About";
+import { BiEnvelope } from "react-icons/bi";
 
 export default function SideIntro() {
   return (
@@ -22,9 +23,15 @@ export default function SideIntro() {
       <section className="md:text-left text-center">
         <h2 className="sideintro-heading">Profile Basics</h2>
         <div className="flex flex-col md:items-start items-center">
-          <span className="inline-flex items-center text-sm font-medium">
+          <span className="inline-flex items-center text-sm py-1 font-medium">
             <FaMapMarkerAlt className="mr-2" /> Bhopal, India
           </span>
+          <Link
+            href="mailto:shivendrahada24@gmail.com"
+            className="inline-flex items-center text-sm font-medium hover:underline"
+          >
+            <BiEnvelope className="mr-2" /> shivendrahada24@gmail.com
+          </Link>
           <Link
             href="tel:+919200250030"
             className="inline-flex items-center text-sm font-medium py-1 hover:underline"
